@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/master_list_fragment"
+        android:name="com.example.ex.bakingapp.StepsMasterFragment"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/tabletStepsView"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/DarkOrange" />
+    <FrameLayout android:id="@+id/stepDetails_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"/>
+</LinearLayout>
